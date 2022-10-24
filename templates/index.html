@@ -9,7 +9,7 @@
 
 <div class="card">
   <div class="card-img">
-    <img class="card-img" src="{{ url_for('send_file', filename=book.cover) }}" alt="{{ book.cover }}" />
+    <img class="card-img" src="{{ url_for('static', filename=book.cover) }}" alt="{{ book.cover }}" />
     <span><h4>{{ book.genre }}</h4></span>
     <div class="overlay">
       <div class="overlay-content">

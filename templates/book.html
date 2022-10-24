@@ -33,9 +33,9 @@
       </h6>
 
       <div class="book-cover row justify-content-center  mb-4">
-          <a href="{{ url_for('send_file', filename=book.cover) }}"><img src="{{ url_for('send_file', filename=book.cover) }}" class="rounded mr-2" alt="Обложка {{ book.title }}"></a>
-          <a href="{{ url_for('send_file', filename='illustration.jpg') }}"><img src="{{ url_for('send_file', filename='illustration.jpg') }}" class="rounded mr-2" alt="Обложка {{ book.title }}"></a>
-          <a href="{{ url_for('send_file', filename='illustration.jpg') }}"><img src="{{ url_for('send_file', filename='illustration.jpg') }}" class="rounded mr-2" alt="Обложка {{ book.title }}"></a>
+          <a href="{{ url_for('static', filename=book.cover) }}"><img src="{{ url_for('static', filename=book.cover) }}" class="rounded mr-2" alt="Обложка {{ book.title }}"></a>
+          <a href="{{ url_for('static', filename='illustration.jpg') }}"><img src="{{ url_for('static', filename='illustration.jpg') }}" class="rounded mr-2" alt="Обложка {{ book.title }}"></a>
+          <a href="{{ url_for('static', filename='illustration.jpg') }}"><img src="{{ url_for('static', filename='illustration.jpg') }}" class="rounded mr-2" alt="Обложка {{ book.title }}"></a>
       </div>
       <div>
       <h4 class="heading">Жанр</h4>
